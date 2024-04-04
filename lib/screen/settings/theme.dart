@@ -19,7 +19,7 @@ class _ThemeScreenState extends State<ThemeScreen> {
       backgroundColor: bgColor,
       body: Column(
         children: [
-          SizedBox(height: 10),
+          SizedBox(height: 30),
           Center(
             child: Text("Theme", style: GoogleFonts.inter(textStyle: TextStyle(
                 fontSize: 20, color: whiteColor
@@ -31,7 +31,7 @@ class _ThemeScreenState extends State<ThemeScreen> {
             children: [
               Container(
                 height: 270,
-                width: 200,
+                width: 180,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
 
@@ -53,7 +53,7 @@ class _ThemeScreenState extends State<ThemeScreen> {
               SizedBox(width: 10),
               Container(
                 height: 270,
-                width: 200,
+                width: 180,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: whiteColor

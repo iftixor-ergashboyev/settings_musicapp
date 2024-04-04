@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:drower_musicapp/screen/settings/account_settings.dart';
+import 'package:drower_musicapp/screen/settings/account/account_settings.dart';
 import 'package:drower_musicapp/screen/settings/settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -112,6 +112,7 @@ class NavBar extends StatelessWidget {
           UserAccountsDrawerHeader(
             accountName: Row(
               children: [
+                SizedBox(height: 6),
                 Text("Percy Hynes", style: GoogleFonts.inter(textStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
                 IconButton(onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context)=> AccountSettings()));

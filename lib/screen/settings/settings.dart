@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:drower_musicapp/screen/settings/account_settings.dart';
+import 'package:drower_musicapp/screen/settings/account/account_settings.dart';
 import 'package:drower_musicapp/screen/settings/language.dart';
 import 'package:drower_musicapp/screen/settings/theme.dart';
 import 'package:drower_musicapp/widgets/colors.dart';
